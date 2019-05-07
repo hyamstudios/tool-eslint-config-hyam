@@ -2,7 +2,8 @@
 eslint config for hyam projects
 
 ## Usage
-
+```
 {
-  "extends": ["hyam"],
+  "extends": ["hyam"]
 }
+```
