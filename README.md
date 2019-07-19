@@ -11,7 +11,7 @@ add `.eslintrc`:
 }
 ```
 
-add `.preetierrc`:
+add `.prettierrc`:
 
 ```
 {
