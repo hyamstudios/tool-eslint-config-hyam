@@ -1,6 +1,16 @@
 {
   "extends": "./index.js",
   "rules": {
-    "jsx-a11y/label-has-for": 0
+    "react/forbid-prop-types": [0, { "properties": "never" }],
+    "camelcase": [0, { "properties": "never" }],
+    "no-underscore-dangle": [0, { "properties": "never" }],
+    "jsx-a11y/label-has-for": 0,
+    "jsx-a11y/label-has-associated-control": [
+      2,
+      {
+        "controlComponents": ["Field"],
+        "depth": 3
+      }
+    ]
   }
 }
