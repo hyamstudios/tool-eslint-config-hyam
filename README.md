@@ -1,11 +1,12 @@
 # eslint-config-hyam
+
 eslint config for hyam projects
 
 ## Usage
 
 add `.eslintrc`:
 
-```
+```json
 {
   "extends": ["hyam"]
 }
@@ -13,7 +14,7 @@ add `.eslintrc`:
 
 add `.prettierrc`:
 
-```
+```json
 {
   "printWidth": 140,
   "singleQuote": true,
